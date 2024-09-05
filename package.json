@@ -1,0 +1,18 @@
+{
+  "name": "erp_e2e",
+  "version": "1.0.0",
+  "description": "E2E test automation",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx playwright test",
+    "start:ui": "npx playwright test --ui",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.46.1",
+    "@types/node": "^22.5.4"
+  }
+}
